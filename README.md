@@ -3,7 +3,6 @@
 <p align="center">
   <a href="https://godoc.org/pkg.re/essentialkaos/zip7.v1"><img src="https://godoc.org/pkg.re/essentialkaos/zip7.v1?status.svg"></a>
   <a href="https://goreportcard.com/report/github.com/essentialkaos/zip7"><img src="https://goreportcard.com/badge/github.com/essentialkaos/zip7"></a>
-  <a href="https://codebeat.co/projects/github-com-essentialkaos-zip7"><img alt="codebeat badge" src="https://codebeat.co/badges/7d5b1210-a853-4d1d-a34a-4afcf574861e" /></a>
   <a href="https://essentialkaos.com/ekol"><img src="https://gh.kaos.st/ekol.svg"></a>
 </p>
 

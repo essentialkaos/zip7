@@ -16,6 +16,11 @@ branches:
 os:
   - linux
 
+addons:
+  apt:
+    packages:
+    - p7zip-full
+
 matrix:
   fast_finish: true
   allow_failures:

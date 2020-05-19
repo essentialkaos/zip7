@@ -4,10 +4,11 @@
   <a href="https://godoc.org/pkg.re/essentialkaos/zip7.v1"><img src="https://godoc.org/pkg.re/essentialkaos/zip7.v1?status.svg"></a>
   <a href="https://goreportcard.com/report/github.com/essentialkaos/zip7"><img src="https://goreportcard.com/badge/github.com/essentialkaos/zip7"></a>
   <a href="https://codebeat.co/projects/github-com-essentialkaos-zip7-master"><img alt="codebeat badge" src="https://codebeat.co/badges/11fb655d-8da8-4694-a32b-b95ff9eed602" /></a>
+  <a href="https://travis-ci.com/essentialkaos/zip7"><img src="https://travis-ci.com/essentialkaos/zip7.svg?branch=master"></a>
   <a href="https://essentialkaos.com/ekol"><img src="https://gh.kaos.st/ekol.svg"></a>
 </p>
 
-<p align="center"><a href="#installation">Installation</a> • <a href="#compatibility-and-os-support">Compatibility and OS support</a> • <a href="#license">License</a></p>
+<p align="center"><a href="#installation">Installation</a> • <a href="#compatibility-and-os-support">Compatibility and OS support</a> • <a href="#build-status">Build Status</a> • <a href="#contributing">Contributing</a> • <a href="#license">License</a></p>
 
 <br/>
 
@@ -47,6 +48,17 @@ go get -u pkg.re/essentialkaos/zip7.v1
 | Mac OS X | :heavy_check_mark: |
 | FreeBSD  | :heavy_check_mark: |
 | Windows  | :x:                |
+
+### Build Status
+
+| Branch | Status |
+|--------|--------|
+| `master` | [![Build Status](https://travis-ci.com/essentialkaos/zip7.svg?branch=master)](https://travis-ci.com/essentialkaos/zip7) |
+| `develop` | [![Build Status](https://travis-ci.com/essentialkaos/zip7.svg?branch=develop)](https://travis-ci.com/essentialkaos/zip7) |
+
+### Contributing
+
+Before contributing to this project please read our [Contributing Guidelines](https://github.com/essentialkaos/contributing-guidelines#contributing-guidelines).
 
 ### License
 

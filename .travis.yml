@@ -16,6 +16,8 @@ branches:
 os:
   - linux
 
+dist: bionic
+
 addons:
   apt:
     packages:

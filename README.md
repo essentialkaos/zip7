@@ -5,6 +5,7 @@
   <a href="https://goreportcard.com/report/github.com/essentialkaos/zip7"><img src="https://goreportcard.com/badge/github.com/essentialkaos/zip7"></a>
   <a href="https://codebeat.co/projects/github-com-essentialkaos-zip7-master"><img alt="codebeat badge" src="https://codebeat.co/badges/11fb655d-8da8-4694-a32b-b95ff9eed602" /></a>
   <a href="https://travis-ci.com/essentialkaos/zip7"><img src="https://travis-ci.com/essentialkaos/zip7.svg?branch=master"></a>
+  <a href="https://github.com/essentialkaos/zip7/actions?query=workflow%3ACodeQL"><img src="https://github.com/essentialkaos/zip7/workflows/CodeQL/badge.svg" /></a>
   <a href="https://essentialkaos.com/ekol"><img src="https://gh.kaos.st/ekol.svg"></a>
 </p>
 

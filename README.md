@@ -1,12 +1,12 @@
 <p align="center"><a href="#readme"><img src="https://gh.kaos.st/go-zip7.svg"/></a></p>
 
 <p align="center">
-  <a href="https://godoc.org/pkg.re/essentialkaos/zip7.v1"><img src="https://godoc.org/pkg.re/essentialkaos/zip7.v1?status.svg"></a>
+  <a href="https://pkg.go.dev/github.com/essentialkaos/zip7"><img src="https://pkg.go.dev/badge/github.com/essentialkaos/zip7" /></a>
   <a href="https://goreportcard.com/report/github.com/essentialkaos/zip7"><img src="https://goreportcard.com/badge/github.com/essentialkaos/zip7"></a>
   <a href="https://codebeat.co/projects/github-com-essentialkaos-zip7-master"><img alt="codebeat badge" src="https://codebeat.co/badges/11fb655d-8da8-4694-a32b-b95ff9eed602" /></a>
   <a href="https://travis-ci.com/essentialkaos/zip7"><img src="https://travis-ci.com/essentialkaos/zip7.svg?branch=master"></a>
   <a href="https://github.com/essentialkaos/zip7/actions?query=workflow%3ACodeQL"><img src="https://github.com/essentialkaos/zip7/workflows/CodeQL/badge.svg" /></a>
-  <a href="https://essentialkaos.com/ekol"><img src="https://gh.kaos.st/ekol.svg"></a>
+  <a href="#license"><img src="https://gh.kaos.st/apache2.svg"></a>
 </p>
 
 <p align="center"><a href="#installation">Installation</a> • <a href="#compatibility-and-os-support">Compatibility and OS support</a> • <a href="#build-status">Build Status</a> • <a href="#contributing">Contributing</a> • <a href="#license">License</a></p>
@@ -63,6 +63,6 @@ Before contributing to this project please read our [Contributing Guidelines](ht
 
 ### License
 
-[EKOL](https://essentialkaos.com/ekol)
+[Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 <p align="center"><a href="https://essentialkaos.com"><img src="https://gh.kaos.st/ekgh.svg"/></a></p>

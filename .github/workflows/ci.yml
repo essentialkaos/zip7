@@ -48,4 +48,30 @@ jobs:
 
       - name: Run tests
         working-directory: ${{env.SRC_DIR}}
-        run: make test
+        run: go test -covermode=count -coverprofile=cover.out
+
+      - name: Install goveralls
+        env:
+          GO111MODULE: off
+        run: go get -v github.com/mattn/goveralls
+
+      - name: Send coverage to Coveralls
+        working-directory: ${{env.SRC_DIR}}
+        env:
+          COVERALLS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: goveralls -service github -coverprofile cover.out
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
+
+      - name: Install codeclimate-test-reporter
+        run: npm install -g codeclimate-test-reporter
+
+      - name: Send coverage to Codebeat
+        working-directory: ${{env.SRC_DIR}}
+        env:
+          CODECLIMATE_API_HOST: https://codebeat.co/webhooks/code_coverage
+          CODECLIMATE_REPO_TOKEN: ${{ secrets.CODECLIMATE_TOKEN }}
+        run: codeclimate-test-reporter < cover.out

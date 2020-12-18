@@ -1,7 +1,7 @@
 <p align="center"><a href="#readme"><img src="https://gh.kaos.st/go-zip7.svg"/></a></p>
 
 <p align="center">
-  <a href="https://pkg.go.dev/pkg.re/essentialkaos/zip7.v1"><img src="https://gh.kaos.st/godoc.svg" alt="PkgGoDev"></a>
+  <a href="https://pkg.re/essentialkaos/zip7.v1?docs"><img src="https://gh.kaos.st/godoc.svg" alt="PkgGoDev"></a>
   <a href="https://goreportcard.com/report/github.com/essentialkaos/zip7"><img src="https://goreportcard.com/badge/github.com/essentialkaos/zip7"></a>
   <a href="https://codebeat.co/projects/github-com-essentialkaos-zip7-master"><img alt="codebeat badge" src="https://codebeat.co/badges/11fb655d-8da8-4694-a32b-b95ff9eed602" /></a>
   <a href="https://github.com/essentialkaos/zip7/actions"><img src="https://github.com/essentialkaos/zip7/workflows/CI/badge.svg" alt="GitHub Actions Status" /></a>

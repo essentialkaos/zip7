@@ -8,7 +8,7 @@ on:
 
 jobs:
   Go:
-    name: Linux
+    name: Go
     runs-on: ubuntu-latest
 
     env:
@@ -95,4 +95,4 @@ jobs:
         run: ./aligo --version
 
       - name: Check Go structs alignment info
-        run: ./aligo check .
+        run: ./aligo check ./...

@@ -61,44 +61,44 @@ type Props struct {
 	IncludeFile string // File with include filenames
 	Exclude     string // Exclude filenames
 	ExcludeFile string // File with exclude filenames
-	Compression int    // Compression level (0-9)
 	OutputDir   string // Output dir (for extract command)
 	Password    string // Password
+	WorkingDir  string // Working dir
+	Compression int    // Compression level (0-9)
 	Threads     int    // Number of CPU threads
 	Recursive   bool   // Recurse subdirectories
-	WorkingDir  string // Working dir
 	Delete      bool   // Delete files after compression
 }
 
 // Info contains info about archive
 type Info struct {
+	Method       []string
+	Files        []*FileInfo
 	Path         string
 	Type         string
-	Method       []string
-	Solid        bool
 	Blocks       int
 	PhysicalSize int
 	HeadersSize  int
-	Files        []*FileInfo
+	Solid        bool
 }
 
 // FileInfo contains info about file inside archive
 type FileInfo struct {
-	Path       string
-	Folder     string
-	Size       int
-	PackedSize int
 	Modified   time.Time
 	Created    time.Time
 	Accessed   time.Time
-	Attributes string
-	CRC        int
-	Encrypted  bool
 	Method     []string
-	Block      int
+	Path       string
+	Folder     string
+	Attributes string
 	Comment    string
 	HostOS     string
+	Size       int
+	PackedSize int
+	CRC        int
+	Block      int
 	Version    int
+	Encrypted  bool
 }
 
 // ////////////////////////////////////////////////////////////////////////////////// //

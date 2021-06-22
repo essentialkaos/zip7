@@ -1,11 +1,11 @@
 <p align="center"><a href="#readme"><img src="https://gh.kaos.st/go-zip7.svg"/></a></p>
 
 <p align="center">
-  <a href="https://pkg.re/essentialkaos/zip7.v1?docs"><img src="https://gh.kaos.st/godoc.svg" alt="PkgGoDev"></a>
-  <a href="https://goreportcard.com/report/github.com/essentialkaos/zip7"><img src="https://goreportcard.com/badge/github.com/essentialkaos/zip7"></a>
-  <a href="https://codebeat.co/projects/github-com-essentialkaos-zip7-master"><img alt="codebeat badge" src="https://codebeat.co/badges/11fb655d-8da8-4694-a32b-b95ff9eed602" /></a>
-  <a href="https://github.com/essentialkaos/zip7/actions"><img src="https://github.com/essentialkaos/zip7/workflows/CI/badge.svg" alt="GitHub Actions Status" /></a>
-  <a href="https://github.com/essentialkaos/zip7/actions?query=workflow%3ACodeQL"><img src="https://github.com/essentialkaos/zip7/workflows/CodeQL/badge.svg" /></a>
+  <a href="https://kaos.sh/g/zip7"><img src="https://gh.kaos.st/godoc.svg" alt="PkgGoDev"></a>
+  <a href="https://kaos.sh/w/zip7/ci"><img src="https://kaos.sh/w/zip7/ci.svg" alt="GitHub Actions CI Status" /></a>
+  <a href="https://kaos.sh/r/zip7"><img src="https://kaos.sh/r/zip7.svg" alt="GoReportCard" /></a>
+  <a href="https://kaos.sh/b/zip7"><img src="https://codebeat.co/badges/11fb655d-8da8-4694-a32b-b95ff9eed602" alt="Codebeat badge" /></a>
+  <a href="https://kaos.sh/w/zip7/codeql"><img src="https://kaos.sh/w/zip7/codeql.svg" alt="GitHub Actions CodeQL Status" /></a>
   <a href="#license"><img src="https://gh.kaos.st/apache2.svg"></a>
 </p>
 
@@ -17,16 +17,16 @@
 
 ### Installation
 
-Make sure you have a working Go 1.14+ workspace (_[instructions](https://golang.org/doc/install)_), then:
+Make sure you have a working Go 1.15+ workspace (_[instructions](https://golang.org/doc/install)_), then:
 
 ```
-go get pkg.re/essentialkaos/zip7.v1
+go get github.com/essentialkaos/zip7
 ```
 
 If you want to update `zip7` to latest stable release, do:
 
 ```
-go get -u pkg.re/essentialkaos/zip7.v1
+go get -u github.com/essentialkaos/zip7
 ```
 
 ### Compatibility and OS support
@@ -48,8 +48,8 @@ go get -u pkg.re/essentialkaos/zip7.v1
 
 | Branch | Status |
 |--------|--------|
-| `master` | [![CI](https://github.com/essentialkaos/zip7/workflows/CI/badge.svg?branch=master)](https://github.com/essentialkaos/zip7/actions) |
-| `develop` | [![CI](https://github.com/essentialkaos/zip7/workflows/CI/badge.svg?branch=develop)](https://github.com/essentialkaos/zip7/actions) |
+| `master` | [![CI](https://kaos.sh/w/zip7/ci.svg?branch=master)](https://kaos.sh/w/zip7/ci?query=branch:master) |
+| `develop` | [![CI](https://kaos.sh/w/zip7/ci.svg?branch=develop)](https://kaos.sh/w/zip7/ci?query=branch:develop) |
 
 ### Contributing
 

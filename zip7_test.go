@@ -2,7 +2,7 @@ package zip7
 
 // ////////////////////////////////////////////////////////////////////////////////// //
 //                                                                                    //
-//                         Copyright (c) 2020 ESSENTIAL KAOS                          //
+//                         Copyright (c) 2022 ESSENTIAL KAOS                          //
 //      Apache License, Version 2.0 <https://www.apache.org/licenses/LICENSE-2.0>     //
 //                                                                                    //
 // ////////////////////////////////////////////////////////////////////////////////// //
@@ -10,9 +10,9 @@ package zip7
 import (
 	"testing"
 
-	"pkg.re/essentialkaos/ek.v12/fsutil"
+	"github.com/essentialkaos/ek/v12/fsutil"
 
-	check "pkg.re/essentialkaos/check.v1"
+	check "github.com/essentialkaos/check"
 )
 
 // ////////////////////////////////////////////////////////////////////////////////// //

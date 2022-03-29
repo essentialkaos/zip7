@@ -17,16 +17,16 @@
 
 ### Installation
 
-Make sure you have a working Go 1.16+ workspace (_[instructions](https://golang.org/doc/install)_), then:
+Make sure you have a working Go 1.17+ workspace (_[instructions](https://golang.org/doc/install)_), then:
 
 ```
-go get pkg.re/essentialkaos/zip7.v1
+go get github.com/essentialkaos/zip7
 ```
 
 If you want to update `zip7` to latest stable release, do:
 
 ```
-go get -u pkg.re/essentialkaos/zip7.v1
+go get -u github.com/essentialkaos/zip7
 ```
 
 ### Compatibility and OS support

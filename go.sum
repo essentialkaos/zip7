@@ -2,8 +2,8 @@ github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ3
 github.com/essentialkaos/check v1.3.0/go.mod h1:PhxzfJWlf5L/skuyhzBLIvjMB5Xu9TIyDIsqpY5MvB8=
 github.com/essentialkaos/check v1.4.0 h1:kWdFxu9odCxUqo1NNFNJmguGrDHgwi3A8daXX1nkuKk=
 github.com/essentialkaos/check v1.4.0/go.mod h1:LMKPZ2H+9PXe7Y2gEoKyVAwUqXVgx7KtgibfsHJPus0=
-github.com/essentialkaos/ek/v12 v12.61.0 h1:8cmtVy/0FqUuWJVQNTnaeFxpQSiPWAxPc6j2EIUAEpA=
-github.com/essentialkaos/ek/v12 v12.61.0/go.mod h1:9MlSuHpewu7OZ9tM9dLFHvoA8dflBIUPCA0Ctt97wRs=
+github.com/essentialkaos/ek/v12 v12.62.0 h1:A+pnMGbSz2apjEjlHU3EQ6Uqam85GTryVPhzcLfY8o4=
+github.com/essentialkaos/ek/v12 v12.62.0/go.mod h1:9MlSuHpewu7OZ9tM9dLFHvoA8dflBIUPCA0Ctt97wRs=
 github.com/essentialkaos/go-linenoise/v3 v3.4.0/go.mod h1:t1kNLY2bSMQCy1JXOefD2BDLs/TTPMtTv3DFNV5uDSI=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
 github.com/kr/pretty v0.3.0/go.mod h1:640gp4NfQd8pI5XOwp5fnNeVWj67G7CFk/SaSQn7NBk=

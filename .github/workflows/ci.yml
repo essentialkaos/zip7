@@ -5,23 +5,34 @@ on:
     branches: [master, develop]
   pull_request:
     branches: [master]
+  workflow_dispatch:
+    inputs:
+      force_run:
+        description: 'Force workflow run'
+        required: true
+        type: choice
+        options: [yes, no]
 
 permissions:
   actions: read
   contents: read
   statuses: write
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  SRC_DIR: src/github.com/${{ github.repository }}
+
 jobs:
   Go:
     name: Go
     runs-on: ubuntu-latest
 
-    env:
-      SRC_DIR: src/github.com/${{ github.repository }}
-
     strategy:
       matrix:
-        go: [ '1.18.x', '1.19.x' ]
+        go: [ '1.18.x', '1.19.x', '1.20.x', ]
 
     steps:
       - name: Set up Go
@@ -42,7 +53,7 @@ jobs:
 
       - name: Download dependencies
         working-directory: ${{env.SRC_DIR}}
-        run: make deps-test
+        run: make deps
 
       - name: Run tests
         working-directory: ${{env.SRC_DIR}}
@@ -78,14 +89,11 @@ jobs:
 
     needs: Go
 
-    env:
-      SRC_DIR: src/github.com/${{ github.repository }}
-
     steps:
       - name: Set up Go
         uses: actions/setup-go@v3
         with:
-          go-version: '1.17.x'
+          go-version: '1.19.x'
 
       - name: Checkout
         uses: actions/checkout@v3

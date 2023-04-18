@@ -153,7 +153,7 @@ func AddList(props Props, files []string) (string, error) {
 	return out, err
 }
 
-// Extract extracts arhive
+// Extract extracts archive
 func Extract(props Props) (string, error) {
 	err := props.Validate(true)
 

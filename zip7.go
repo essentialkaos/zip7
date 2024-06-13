@@ -319,10 +319,10 @@ func execBinary(command string, props Props, files []string) (string, error) {
 	out, err := cmd.Output()
 
 	if err != nil {
-		return string(out[:]), errors.New(string(out[:]))
+		return string(out), errors.New(string(out))
 	}
 
-	return string(out[:]), nil
+	return string(out), nil
 }
 
 // parseInfoString process raw info data

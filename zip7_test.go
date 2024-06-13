@@ -497,7 +497,7 @@ func (s *Z7Suite) TestAdd(c *check.C) {
 
 	c.Assert(fsutil.IsExist(resultFile), check.Equals, true)
 	c.Assert(fsutil.IsReadable(resultFile), check.Equals, true)
-	c.Assert(fsutil.IsNonEmpty(resultFile), check.Equals, true)
+	c.Assert(fsutil.IsEmpty(resultFile), check.Equals, false)
 
 	ok, err := Check(Props{File: resultFile})
 
@@ -512,7 +512,7 @@ func (s *Z7Suite) TestAdd(c *check.C) {
 
 	c.Assert(fsutil.IsExist(resultFile), check.Equals, true)
 	c.Assert(fsutil.IsReadable(resultFile), check.Equals, true)
-	c.Assert(fsutil.IsNonEmpty(resultFile), check.Equals, true)
+	c.Assert(fsutil.IsEmpty(resultFile), check.Equals, false)
 
 	ok, err = Check(Props{File: resultFile})
 

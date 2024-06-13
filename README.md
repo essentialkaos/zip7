@@ -9,25 +9,11 @@
   <a href="#license"><img src=".github/images/license.svg"/></a>
 </p>
 
-<p align="center"><a href="#installation">Installation</a> • <a href="#compatibility-and-os-support">Compatibility and OS support</a> • <a href="#build-status">Build Status</a> • <a href="#contributing">Contributing</a> • <a href="#license">License</a></p>
+<p align="center"><a href="#compatibility-and-os-support">Compatibility and OS support</a> • <a href="#ci-status">CI Status</a> • <a href="#contributing">Contributing</a> • <a href="#license">License</a></p>
 
 <br/>
 
 `zip7` package provides methods for working with 7z archives (`p7zip` wrapper).
-
-### Installation
-
-Make sure you have a working Go 1.17+ workspace (_[instructions](https://go.dev/doc/install)_), then:
-
-```
-go get github.com/essentialkaos/zip7
-```
-
-If you want to update `zip7` to latest stable release, do:
-
-```
-go get -u github.com/essentialkaos/zip7
-```
 
 ### Compatibility and OS support
 
@@ -44,7 +30,7 @@ go get -u github.com/essentialkaos/zip7
 | FreeBSD  | :heavy_check_mark: |
 | Windows  | :x:                |
 
-### Build Status
+### CI Status
 
 | Branch | Status |
 |--------|--------|

@@ -1,33 +1,19 @@
-<p align="center"><a href="#readme"><img src="https://gh.kaos.st/go-zip7.svg"/></a></p>
+<p align="center"><a href="#readme"><img src=".github/images/card.svg"/></a></p>
 
 <p align="center">
-  <a href="https://kaos.sh/g/zip7.v1"><img src="https://gh.kaos.st/godoc.svg" alt="PkgGoDev"></a>
+  <a href="https://kaos.sh/g/zip7.v1"><img src=".github/images/godoc.svg"/></a>
   <a href="https://kaos.sh/w/zip7/ci"><img src="https://kaos.sh/w/zip7/ci.svg" alt="GitHub Actions CI Status" /></a>
   <a href="https://kaos.sh/r/zip7"><img src="https://kaos.sh/r/zip7.svg" alt="GoReportCard" /></a>
   <a href="https://kaos.sh/b/zip7"><img src="https://codebeat.co/badges/11fb655d-8da8-4694-a32b-b95ff9eed602" alt="Codebeat badge" /></a>
   <a href="https://kaos.sh/w/zip7/codeql"><img src="https://kaos.sh/w/zip7/codeql.svg" alt="GitHub Actions CodeQL Status" /></a>
-  <a href="#license"><img src="https://gh.kaos.st/apache2.svg"></a>
+  <a href="#license"><img src=".github/images/license.svg"/></a>
 </p>
 
-<p align="center"><a href="#installation">Installation</a> • <a href="#compatibility-and-os-support">Compatibility and OS support</a> • <a href="#build-status">Build Status</a> • <a href="#contributing">Contributing</a> • <a href="#license">License</a></p>
+<p align="center"><a href="#compatibility-and-os-support">Compatibility and OS support</a> • <a href="#ci-status">CI Status</a> • <a href="#contributing">Contributing</a> • <a href="#license">License</a></p>
 
 <br/>
 
 `zip7` package provides methods for working with 7z archives (`p7zip` wrapper).
-
-### Installation
-
-Make sure you have a working Go 1.17+ workspace (_[instructions](https://golang.org/doc/install)_), then:
-
-```
-go get github.com/essentialkaos/zip7
-```
-
-If you want to update `zip7` to latest stable release, do:
-
-```
-go get -u github.com/essentialkaos/zip7
-```
 
 ### Compatibility and OS support
 
@@ -44,7 +30,7 @@ go get -u github.com/essentialkaos/zip7
 | FreeBSD  | :heavy_check_mark: |
 | Windows  | :x:                |
 
-### Build Status
+### CI Status
 
 | Branch | Status |
 |--------|--------|

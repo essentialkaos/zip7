@@ -10,7 +10,7 @@ package zip7
 import (
 	"testing"
 
-	"github.com/essentialkaos/ek/v12/fsutil"
+	"github.com/essentialkaos/ek/v13/fsutil"
 
 	check "github.com/essentialkaos/check"
 )

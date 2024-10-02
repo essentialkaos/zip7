@@ -4,7 +4,6 @@
   <a href="https://kaos.sh/g/zip7.v1"><img src=".github/images/godoc.svg"/></a>
   <a href="https://kaos.sh/w/zip7/ci"><img src="https://kaos.sh/w/zip7/ci.svg" alt="GitHub Actions CI Status" /></a>
   <a href="https://kaos.sh/r/zip7"><img src="https://kaos.sh/r/zip7.svg" alt="GoReportCard" /></a>
-  <a href="https://kaos.sh/b/zip7"><img src="https://codebeat.co/badges/11fb655d-8da8-4694-a32b-b95ff9eed602" alt="Codebeat badge" /></a>
   <a href="https://kaos.sh/w/zip7/codeql"><img src="https://kaos.sh/w/zip7/codeql.svg" alt="GitHub Actions CodeQL Status" /></a>
   <a href="#license"><img src=".github/images/license.svg"/></a>
 </p>

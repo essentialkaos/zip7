@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This package is no longer maintained and should not be used. Use package [`bodgit/sevenzip`](https://github.com/bodgit/sevenzip) instead.
+
 <p align="center"><a href="#readme"><img src=".github/images/card.svg"/></a></p>
 
 <p align="center">
@@ -7,9 +10,6 @@
   <a href="https://kaos.sh/w/zip7/codeql"><img src="https://kaos.sh/w/zip7/codeql.svg" alt="GitHub Actions CodeQL Status" /></a>
   <a href="#license"><img src=".github/images/license.svg"/></a>
 </p>
-
-> [!CAUTION]
-> This package is no longer maintained and should not be used. Use package [`bodgit/sevenzip`](https://github.com/bodgit/sevenzip) instead.
 
 <p align="center"><a href="#compatibility-and-os-support">Compatibility and OS support</a> • <a href="#ci-status">CI Status</a> • <a href="#contributing">Contributing</a> • <a href="#license">License</a></p>
 

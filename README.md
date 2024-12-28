@@ -1,5 +1,5 @@
 > [!CAUTION]
-> This package is no longer maintained and should not be used. Use package [`bodgit/sevenzip`](https://github.com/bodgit/sevenzip) instead.
+> **This package is no longer maintained and should not be used. Use package [`bodgit/sevenzip`](https://github.com/bodgit/sevenzip) instead.**
 
 <p align="center"><a href="#readme"><img src=".github/images/card.svg"/></a></p>
 
